@@ -1,3 +1,5 @@
+/* basic structure */
+
 *
 {
 	box-sizing: border-box;
@@ -9,6 +11,7 @@ body
 	margin: 0;
 }
 
+/* header */
 header 
 {
 	background-color:#ffffff;
@@ -77,6 +80,9 @@ span
 	color: #cccccc;
 }
 
+
+/* main */
+
 main, footer
 {
 	color: #777777;
@@ -114,8 +120,6 @@ main
 }
 
 
-
-
 hr
 {
 	color: #cccccc;
@@ -123,6 +127,8 @@ hr
 	background-color: #cccccc;
 	border: none;
 }
+
+/* about.html style */
 
 .aboutcontent
 {
@@ -160,7 +166,7 @@ p .nowrap
 clear: both;
 }
 
-
+/* contact.html style */
 .contactform
 {
 	width: 100%;
@@ -202,36 +208,44 @@ input, textarea
 
 }
 	
-.portfolio
-{
-	height: 800px;
-}
-
+/* portfolio.html style */
 .box
 {
 	margin-top: 40px;
 }
-.box1, .box2, .box3, .box4, .box5
+.boxitem, .boxitemright
 {
-	width: 300px;
-	height: 200px;
+	width: 40%;
+	height: auto;
 	float: left;
 }
 
-div .text
+.boxitem img, .boxitemright img
+{
+	width: 250px;
+	height: auto;
+}
+
+.push
+{
+	clear: both;
+}
+
+.boxitem .text, .boxitemright .text
 {
 	position: relative;
 	bottom: 50px;
 	background-color: #4aaaa5;
-	text-align: center;
-
 	color: white;
-	width: 200px;
+	width: 250px;
 	padding: 10px 0px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 16px;
-
+	text-align: center;
 }
+
+
+/* footer */
 
 footer 
 {
@@ -254,6 +268,8 @@ footer
 	font-size: 11px;	
 }
 
+/* responsive setting */
+
 @media (max-width: 980px) 
 {
 
@@ -268,12 +284,40 @@ footer
    	width: 30%;
    	height: auto;
    }
+
+.boxitem, .boxitemright
+{
+	width: 40%;
+	margin-left: 5%;
+}
+
+.boxitem img, .boxitemright img
+{
+	width: 100%;
+}
+
+	.boxitem .text, .boxitemright .text
+	{
+		width: 100%;
+	}
+
+	.boxitemright
+	{
+		margin-left: 10%;
+	}
+
 }
 
 
 @media (max-width: 768px) 
 
 {
+	.about, .contact, .portfolio
+	{
+		width: 85%;
+		margin: 0 auto;
+	}
+
    
 	.aboutcontent img
 	{
@@ -339,6 +383,12 @@ footer
     	width: 100%;
     	height: auto;
     }
+
+    .boxitem, .boxitemright
+	{
+		width: 90%;
+		margin-left: 5%;
+	}
 
 }
 
