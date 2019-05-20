@@ -110,6 +110,7 @@ main
 	margin: 0 auto;
 	top: 20%;
 	padding: 40px 30px 20px 30px;
+	margin-bottom: 200px;
 }
 
 .about h1 , .contact h1 , .portfolio h1
@@ -127,6 +128,7 @@ hr
 	background-color: #cccccc;
 	border: none;
 }
+
 
 /* about.html style */
 
@@ -166,7 +168,48 @@ p .nowrap
 clear: both;
 }
 
+
+/* portfolio.html style */
+.box
+{
+	margin-top: 40px;
+}
+.boxitem, .boxitemright
+{
+	width: 40%;
+	height: auto;
+	float: left;
+}
+
+.boxitem img, .boxitemright img
+{
+	width: 250px;
+	height: auto;
+}
+
+.boxitem .text, .boxitemright .text
+{
+	position: relative;
+	bottom: 50px;
+	background-color: #4aaaa5;
+	color: white;
+	width: 250px;
+	padding: 10px 0px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 16px;
+	text-align: center;
+}
+
+.push
+{
+	clear: both;
+}
+
+
+
 /* contact.html style */
+
+
 .contactform
 {
 	width: 100%;
@@ -208,41 +251,6 @@ input, textarea
 
 }
 	
-/* portfolio.html style */
-.box
-{
-	margin-top: 40px;
-}
-.boxitem, .boxitemright
-{
-	width: 40%;
-	height: auto;
-	float: left;
-}
-
-.boxitem img, .boxitemright img
-{
-	width: 250px;
-	height: auto;
-}
-
-.push
-{
-	clear: both;
-}
-
-.boxitem .text, .boxitemright .text
-{
-	position: relative;
-	bottom: 50px;
-	background-color: #4aaaa5;
-	color: white;
-	width: 250px;
-	padding: 10px 0px;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	font-size: 16px;
-	text-align: center;
-}
 
 
 /* footer */
@@ -277,24 +285,25 @@ footer
 	{
 		width: 65%;
 		margin-left: 7.5%;
+		margin-bottom: 200px;
 	}
 
    .aboutcontent img
    {
-   	width: 30%;
-   	height: auto;
+	   	width: 30%;
+	   	height: auto;
    }
 
-.boxitem, .boxitemright
-{
-	width: 40%;
-	margin-left: 5%;
-}
+	.boxitem, .boxitemright
+	{
+		width: 40%;
+		margin-left: 5%;
+	}
 
-.boxitem img, .boxitemright img
-{
-	width: 100%;
-}
+	.boxitem img, .boxitemright img
+	{
+		width: 100%;
+	}
 
 	.boxitem .text, .boxitemright .text
 	{
@@ -316,6 +325,7 @@ footer
 	{
 		width: 85%;
 		margin: 0 auto;
+		margin-bottom: 200px;
 	}
 
    
@@ -374,6 +384,7 @@ footer
     	width: 85%;
     	position: relative;
     	top: 40px;
+    	margin-bottom: 200px;
     }
 
     .aboutcontent img
