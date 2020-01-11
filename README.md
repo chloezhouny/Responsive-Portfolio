@@ -2,23 +2,24 @@
 
 This project enhances the basic portfolio with a mobile-responsive layout.
 
+Link: https://chloezhouny.github.io/Responsive-Portfolio/index.html 
 
 
-<br>
+### Demo: 
 
-* #### Screen 960 Demo 
+#### Screen 960
 
   ![demo](assets/images/demo1.gif)
 
 
 
 
-* #### Screen 768 Demo 
+#### Screen 768
   ![demo](assets/images/demo2.gif)  
 
 
 
-* #### Screen 640 Demo 
+#### Screen 640
 
   ![demo](assets/images/demo3.gif)
 
